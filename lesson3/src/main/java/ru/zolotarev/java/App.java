@@ -4,14 +4,12 @@ import java.io.*;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
-import java.util.Scanner;
 
 public class App {
     public static void main(String[] args){
         try {
             readFile("temp/test1.txt");
             stitchFile("temp/test1.txt", "temp/test2.txt", "temp/test3.txt", "temp/test4.txt", "temp/test5.txt");
-            lookPage("temp/BookEngText.txt");
         } catch (IOException e){
             e.printStackTrace();
         }
@@ -28,7 +26,7 @@ public class App {
         System.out.println(" " + Arrays.toString(arr));
         in.close();
         out.close();
-        System.out.println("--------------------------------------");
+        System.out.println("---------------------------------");
     }
 
 //    Есть ли смысл дробить потобные длинные строки или это ухудшает чтение кода? Пример:
@@ -52,23 +50,5 @@ public class App {
         }
         in.close();
         out.close();
-        System.out.println("\n--------------------------------------");
-    }
-    private static void lookPage(String nameFile)throws IOException{
-        int charForOnePage = 1800;
-        RandomAccessFile raf = new RandomAccessFile(nameFile, "rw");
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("Введите страницу");
-        int page = scanner.nextInt()-1;
-        if(page < 0){
-            System.out.println("Введите страницу от 1");
-            page = scanner.nextInt()-1;
-        }
-        raf.seek(page * charForOnePage);
-        //Почему не работает for(int i: charForOnePage)?
-        for (int i = 0; i < charForOnePage; i++) {
-            System.out.print((char)raf.read());
-        }
-        raf.close();
     }
 }
