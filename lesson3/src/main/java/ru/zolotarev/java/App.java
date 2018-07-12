@@ -35,7 +35,7 @@ public class App {
 //                                    String nameFile5) throws IOException{
     private static  void stitchFile(String nameFile1,String nameFile2, String nameFile3,String nameFile4, String unifiedFile) throws IOException{
         ArrayList<InputStream> al = new ArrayList<InputStream>();
-        //можно ли такой процесс сделать через цикл?
+        //можно ли процесс добавления сделать через цикл?
         al.add(new FileInputStream(nameFile1));
         al.add(new FileInputStream(nameFile2));
         al.add(new FileInputStream(nameFile3));

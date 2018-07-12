@@ -15,12 +15,13 @@
       <file leaf-file-name="App.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/ru/zolotarev/java/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="251">
-              <caret line="36" column="113" selection-start-line="36" selection-start-column="113" selection-end-line="36" selection-end-column="113" />
+            <state relative-caret-position="374">
+              <caret line="35" column="87" selection-start-line="35" selection-start-column="87" selection-end-line="35" selection-end-column="87" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="method#main#0;class#App#0" />
                 <element signature="e#962#975#0" expanded="true" />
-                <marker date="1531354017456" expanded="true" signature="219:246" ph="..." />
+                <marker date="1531354553600" expanded="true" signature="219:246" ph="..." />
               </folding>
             </state>
           </provider>
@@ -241,12 +242,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/zolotarev/java/App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="36" column="113" selection-start-line="36" selection-start-column="113" selection-end-line="36" selection-end-column="113" />
+        <state relative-caret-position="374">
+          <caret line="35" column="87" selection-start-line="35" selection-start-column="87" selection-end-line="35" selection-end-column="87" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#main#0;class#App#0" />
             <element signature="e#962#975#0" expanded="true" />
-            <marker date="1531354017456" expanded="true" signature="219:246" ph="..." />
+            <marker date="1531354553600" expanded="true" signature="219:246" ph="..." />
           </folding>
         </state>
       </provider>
